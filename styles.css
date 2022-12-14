@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap');
+
+body {
+background-image: url(https://images.unsplash.com/photo-1660700066782-52de3914de48?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+font-family: Inter;
+background-size: cover;
+background-attachment: fixed;
+font-size: 18px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: -10px;
+  margin-top: 50px;
+  font-weight: 800;
+  font-size: 40px;
+}
+
+p[id=description] {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 1em;
+}
+
+p {
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+}
+input[type="text"], input[type="email"], input[type="number"], input[type="submit"], select, textarea {
+  display: block;
+  margin-bottom: 2em;
+  width: 100%;
+  min-height:50px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color:rgba(255, 251, 250, 0.4);
+  font-family: Inter;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+input[type="radio"], input[type="checkbox"] {
+  transform : scale(1.3);
+  margin-right: 10px;
+  margin-top: 0.5em;
+}
+
+input[type="submit"] {
+  background-color:rgba(255, 251, 250, 1);
+  font-size: 18px;
+}
+
+input[type="submit"]:hover {
+  background-color:rgba(255, 251, 250, 0.8);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+input:focus, input:hover, select:focus, select:hover, textarea:focus, textarea:hover   {
+  background-color:rgba(255, 251, 250, 0.8);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.select {
+  display: flex;
+}
+
+label[id="last-label"] {
+  margin-bottom: 2em;
+}
+form {
+  width: 500px;
+  background-color: rgba(255, 251, 250, 0.4);
+  backdrop-filter: blur(10px);
+  margin: auto;
+  margin-bottom: 35px;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+p[id="thx"] {
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 10px;
+}

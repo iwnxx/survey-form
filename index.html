@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+ <head>
+   <link rel="stylesheet" href="styles.css">
+   <meta charset="utf-8">
+   <title>Survey</title>
+ </head>
+ <body>
+   <h1 id="title">Did you like it?</h1>
+   <p class="dsc" id="description">Tell us how your flight went</p>
+   <form id="survey-form">
+   <label id="name-label"><p>Name</p> 
+   <input type="text" id="name" required placeholder="John Doe" />
+   </label>
+   
+   <label id="email-label"><p>Email</p> 
+   <input type="email" id="email" required placeholder="john@gmail.com" />
+   </label>
+   
+   <label id="number-label"><p>Overall impression</p> 
+   <input type="number" id="number" min="1" max="10" placeholder="Rating from 1 to 10" />
+   </label>
+   
+   <label><p>How did you check in for the flight?</p>
+   <select id="dropdown"> 
+   <option disabled selected hidden>Choose</option>
+   <option>На стойке регистрации в аэропорту</option>
+   <option>В киоске регистрации в аэропорту</option>
+   <option>В киоске регистрации на вокзале</option>
+   <option>Онлайн в приложении</option>
+   <option>Онлайн на сайте</option>
+   <option>С помощью чат-бота в Telegram или WatsApp</option>
+
+   </select>
+   </label>
+ 
+
+
+     <p>Would you recommend our airline to your friends?</p>
+   <label class="select">
+     <input type="radio" name="group" value="yes"> Definitely yes!
+   </label>
+   <label class="select" id="last-label">
+     <input type="radio" name="group" value="no"> No
+   </label>
+  
+
+     <p>What should be improved?</p>
+   <label class="select">
+     <input type="checkbox" value="aa"> The work of flight attendants
+   </label>
+   <label class="select">
+     <input type="checkbox" value="bb"> Interior condition
+   </label>
+   <label class="select">
+     <input type="checkbox" value="cc"> Serving size or taste of food
+   </label>
+   <label class="select">
+     <input type="checkbox" value="dd"> Check-in process
+   </label>
+   <label class="select" id="last-label">
+     <input type="checkbox" value="ee" > Ticket purchase process
+   </label>
+
+   <label><p>Do you want to add something?</p>
+     <textarea value="comment" placeholder="Write your comment or wish"></textarea>
+   </label>
+
+<input type="submit" id="submit" value="Submit">
+
+<p id="thx">Thanks for choosing us for your travel <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/twitter/322/red-heart_2764-fe0f.png" height="12px"></p>
+
+   </form>
+
+<footer>
+  
+</footer>
+ </body>
+</html>
